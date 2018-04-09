@@ -50,6 +50,7 @@ app.post('/send',function(req, res) {
     	}
     })
    res.redirect('/');
+   connection.end();
    // res.send(JSON.stringify(req.body));
   
 })
