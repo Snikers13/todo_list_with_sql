@@ -1,0 +1,8 @@
+extends layout
+
+block content
+	h1#h1contact Contact us
+			form(action='/send' method='post' class='input_form')
+				fieldset
+					input.form-control(name='task', type='text' class='input_form')
+				button.btn1.btn-primary(type='submit' id="add_btn" class="add_btn") Send
