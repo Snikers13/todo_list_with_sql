@@ -1,5 +1,5 @@
 .heading{
-	width: 50%;
+	width: 500px;
 	margin: 30px auto;
 	text-align: center;
 	color: 	#6B8E23;
@@ -72,4 +72,24 @@ tr:hover {
 	padding: 1px 6px;
 	border-radius: 3px;
 	text-decoration: none;
+}
+
+.btn {
+	position: relative;
+	float: right;
+	margin-top: 5px;
+}
+._form {
+	float: left;
+}
+.input_form {
+	border: none;
+}
+
+li {
+	border: 2px solid;
+	list-style-type: none;
+	width: 350px;
+	position: relative;
+	margin-left: 37px;
 }

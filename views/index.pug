@@ -3,7 +3,10 @@ extends layout
 block content
 	div(class="heading")
 		h2(style="font-style: 'Hervetica';") ToDo List Application Javascript and MySQL database
-			form(action='/send' method='post' class='input_form')
+			form(method='post' class='input_form')
 				fieldset
-					input.form-control(name='task', type='text' class='input_form')
-				button.btn1.btn-primary(type='submit' id="add_btn" class="add_btn") Send
+					input.form-control(name='task', type='text' class='_form')
+					button.btn(type='submit' id='add') Add task
+			ul.tasks
+				each val, index in person
+					li= val.task
